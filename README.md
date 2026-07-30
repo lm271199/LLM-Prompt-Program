@@ -23,16 +23,13 @@ Python、pandas、requests、Jupyter Notebook
 pip install pandas openpyxl requests
 
 2. 基础配置
-```bash
 在 test_prompt.xlsx 填写需要测试的提示词
 打开 textllm.ipynb，填入接口地址、模型名称、API_KEY
 ⚠️ 安全提醒：公开仓库请勿填写真实密钥！
 
 3. 运行项目
-```bash
 依次执行 Notebook 单元格，运行结束自动生成 model_result.xlsx
 输出字段：提示词、模型回答、输入 token、输出 token、运行状态、评测备注
 
-```bash
 License
 MIT
